@@ -17,6 +17,7 @@ jobs:
   k8s-deploy:
     runs-on: ubuntu-latest
     steps:
+      - uses: actions/checkout@master
       - uses: azure/k8s-set-context@v1
         with:
           method: kubeconfig
