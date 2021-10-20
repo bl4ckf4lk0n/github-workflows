@@ -10,7 +10,7 @@ on:
         required: true
         type: string
     secrets:
-      token:
+      KUBE_CONFIG:
         required: true
 
 jobs:
